@@ -1,0 +1,73 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+/* // window.addEventListener("load", function() {
+//     $(document).keydown(function() {
+//         $("#level-title").text("Level 1");
+//         playGame();
+//     })
+// })
+
+// function playGame() {
+
+//     for(let j = 0; j < 5; j++) {
+//         setTimeout(function() {
+//             let i = Math.floor(Math.random() * 4);
+//             document.querySelectorAll(".btn")[i].classList.add("pressed");
+//             setTimeout(function() {
+//                 document.querySelectorAll(".btn")[i].classList.remove("pressed");
+//             }, 200);
+//         }, j * 1000)
+//     }
+// } */
